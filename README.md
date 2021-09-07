@@ -11,9 +11,10 @@ The segmentation pipeline created by original authors had some problems with man
 
 <h3>2. Convolution Neural Network for slice classification</h3>
 
-iCTCF site also offers an indipendent dataset <b>nCT_pCT_NiCT</b> created for training a CNN that can classify a CT slice in three categories:
+iCTCF site also offers an indipendent dataset <b>nCT_pCT_NiCT</b> specifically created for training a CNN that can classify a CT slice in three categories:
 <ul>
   <li>nCT (negative CT): CT slice belonging to a negative patient (5705 images)</li>
   <li>pCT (positive CT): CT slice belonging to a positive patient (4001 images)</li>
   <li>NiCT (Non informative CT): CT slice not catpuring lung's area (9979 images)</li>
 </ul>
+We created a CNN based on EfficientNet architecture http://proceedings.mlr.press/v97/tan19a.html, we did cross validation and then used the model to classify every image and assign it a pCT score (we can think about it as a probability of beeing a positive CT).
