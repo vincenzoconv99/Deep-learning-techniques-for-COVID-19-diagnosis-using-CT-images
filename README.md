@@ -3,9 +3,9 @@
 The dataset used is made available for research purposes by the authors of “Open resource of clinical data from patients with pneumonia for the prediction of COVID-19 outcomes via deep learning” on the site http://ictcf.biocuckoo.cn/. This is multimodal and for each patient of 1342 contains a CT, biological values and comorbidities. 
 iCTCF site offers also an indipendent dataset <b>nCTpCTNiCT</b> created for training a CNN that can classify a CT slice in three categories:
 <ul>
-  <li>nCT:</li>
-  <li>pCT:</li>
-  <li>NiCT:</li>
+  <li>nCT (negative CT): CT slice belonging to a negative patient</li>
+  <li>pCT (positive CT): CT slice belonging to a positive patient</li>
+  <li>NiCT: CT slice not catpuring lung's area</li>
 </ul>
 
 <h3>1. Scraping and preprocessing</h3>
