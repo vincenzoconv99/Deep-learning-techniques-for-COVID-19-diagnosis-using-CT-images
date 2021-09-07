@@ -9,4 +9,4 @@ iCTCF site offers also an indipendent dataset <b>nCT_pCT_NiCT</b> created for tr
 </ul>
 
 <h3>1. Scraping and preprocessing</h3>
-All CT images are available for download, so we used https://www.httrack.com/ application to automate the process of downloading. Other data (biological values, basic info and comorbidities) is available as a txt file named patient.txt, we wrote and used structure_data.ipybn in order to obtain JSON encoded file: <b>patient.json</b>.
+All CT images are available for download, so we used https://www.httrack.com/ application to automate the process of downloading. Other data (biological values, basic info and comorbidities) is available as a txt file named patient.txt, we wrote and used <b>structure_data.ipybn</b> in order to obtain JSON encoded file: <b>patient.json</b>.
