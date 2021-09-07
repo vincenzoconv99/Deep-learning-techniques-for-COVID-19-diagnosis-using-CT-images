@@ -13,4 +13,4 @@ All CT images are available for download, so we used https://www.httrack.com/ ap
 <h4>1.1 Preprocessing images</h4>
 The segmentation pipeline created by original authors had some problems with many CT slices (missing lungs, black screen, etc.) so we decide to use a different technology (OTSU) in order to segmentate the patient's body instead of lungs. The following picture shows an example of execution.
 
-<img style="margin-top:30px;" width="600px" src="https://user-images.githubusercontent.com/32338761/132377979-ee6d297c-d253-47af-bd78-2fe506b70368.JPG">
+<img width="600px" src="https://user-images.githubusercontent.com/32338761/132377979-ee6d297c-d253-47af-bd78-2fe506b70368.JPG">
