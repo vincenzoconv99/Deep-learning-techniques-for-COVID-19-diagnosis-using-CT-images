@@ -5,7 +5,7 @@ iCTCF site offers also an indipendent dataset <b>nCT_pCT_NiCT</b> created for tr
 <ul>
   <li>nCT (negative CT): CT slice belonging to a negative patient (5705 images)</li>
   <li>pCT (positive CT): CT slice belonging to a positive patient (4001 images)</li>
-  <li>NiCT: CT slice not catpuring lung's area (9979 images)</li>
+  <li>NiCT (Non informative CT): CT slice not catpuring lung's area (9979 images)</li>
 </ul>
 
 <h3>1. Scraping and preprocessing</h3>
