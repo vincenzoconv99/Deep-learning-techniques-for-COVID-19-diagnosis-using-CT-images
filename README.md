@@ -1,3 +1,2 @@
-# COVID-19-Detection-using-CT-and-clinical-features
+# Deep learning techniques for COVID-19 diagnosis using CT images
 
-Lavoro di tesi di ricerca triennale per la laurea in Informatica per la comunicazione digitale
