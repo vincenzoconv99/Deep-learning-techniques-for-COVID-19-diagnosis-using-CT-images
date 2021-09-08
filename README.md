@@ -20,6 +20,6 @@ iCTCF site also offers an indipendent dataset <b>nCT_pCT_NiCT</b> specifically c
 We created a CNN based on EfficientNet architecture http://proceedings.mlr.press/v97/tan19a.html, we did cross validation and then used the model to classify every image and assign it a pCT score (we can think about it as the probability of beeing a positive CT).
 
 <h4>2.1 Cross validation results</h4>
-<img style="margin:auto" src="https://user-images.githubusercontent.com/32338761/132532172-a42b2520-277e-4f75-ae0e-28cabadea174.png"/>
-<img style="margin:auto" src="https://user-images.githubusercontent.com/32338761/132532252-15000867-7431-4b40-abe8-aa7ec342885f.png"/>
+<img style="float:left" src="https://user-images.githubusercontent.com/32338761/132532172-a42b2520-277e-4f75-ae0e-28cabadea174.png"/>
+<img style="float:right" src="https://user-images.githubusercontent.com/32338761/132532252-15000867-7431-4b40-abe8-aa7ec342885f.png"/>
 
