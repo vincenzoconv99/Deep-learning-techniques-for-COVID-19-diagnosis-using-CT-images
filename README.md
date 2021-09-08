@@ -9,7 +9,7 @@ The segmentation pipeline created by original authors had some problems with man
 
 <img width="600px" src="https://user-images.githubusercontent.com/32338761/132377979-ee6d297c-d253-47af-bd78-2fe506b70368.JPG">
 
-<h3>2. Convolution Neural Network for slice classification</h3>
+<h3>2. Convolutional Neural Network for slice classification</h3>
 
 iCTCF site also offers an indipendent dataset <b>nCT_pCT_NiCT</b> specifically created for training a CNN that can classify a CT slice in three categories:
 <ul>
@@ -25,4 +25,5 @@ We created a CNN based on EfficientNet architecture http://proceedings.mlr.press
   <img style="float:right" src="https://user-images.githubusercontent.com/32338761/132532252-15000867-7431-4b40-abe8-aa7ec342885f.png"/>
 </div>
 
-<h3>3. Convolution Neural Network for patients diagnosis</h3>
+<h3>3. Convolutional Neural Network for patients diagnosis</h3>
+Once classified all patient's images using the above CNN 
