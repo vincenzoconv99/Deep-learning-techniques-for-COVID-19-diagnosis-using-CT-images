@@ -17,10 +17,12 @@ iCTCF site also offers an indipendent dataset <b>nCT_pCT_NiCT</b> specifically c
   <li>pCT (positive CT): CT slice belonging to a positive patient (4001 images)</li>
   <li>NiCT (Non informative CT): CT slice not catpuring lung's area (9979 images)</li>
 </ul>
-We created a CNN based on EfficientNet architecture http://proceedings.mlr.press/v97/tan19a.html, we did cross validation and then used the model to classify every image and assign it a pCT score (we can think about it as the probability of beeing a positive CT).
+We created a CNN based on EfficientNet architecture http://proceedings.mlr.press/v97/tan19a.html, we did cross validation and then used the model to classify every patient's image and assign it a pCT score (we can think about it as the probability of beeing a positive CT).
 
 <h4>2.1 Cross validation results</h4>
 <div style="width:300px;text-align:center;">
   <img style="float:left" src="https://user-images.githubusercontent.com/32338761/132532172-a42b2520-277e-4f75-ae0e-28cabadea174.png"/>
   <img style="float:right" src="https://user-images.githubusercontent.com/32338761/132532252-15000867-7431-4b40-abe8-aa7ec342885f.png"/>
 </div>
+
+<h3>3. Convolution Neural Network for patients diagnosis</h3>
