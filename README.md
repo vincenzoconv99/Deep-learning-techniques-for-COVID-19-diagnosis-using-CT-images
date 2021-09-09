@@ -26,4 +26,6 @@ We created a CNN based on EfficientNet architecture http://proceedings.mlr.press
 </div>
 
 <h3>3. Convolutional Neural Network for patients diagnosis</h3>
-Once classified all patient's images using the above CNN 
+Once classified all patient's images using the above CNN, we tried to create three CNN working with different CT data for patient's diagnosis
+<h4>CNN on original CT images</h4>
+We decided to start experimentation with a CNN working on original images (just resized to a standard resolution: <b>224x224</b>). For each patient we took 5 image iff he got a <b>pCT score>0.3</b>
